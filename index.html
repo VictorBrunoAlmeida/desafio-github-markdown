@@ -3,43 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Mundo dos Macacos</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        h1 {
-            color: #333;
-            text-align: center;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 20px auto;
-        }
-    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>Macacos: Fascinantes Primatas</h1>
+<body class="bg-amber-50 font-sans leading-relaxed max-w-3xl mx-auto p-6 text-gray-800">
+    <header class="mb-8"></header>
+        <h1 class="text-4xl font-bold text-center text-amber-800 mb-6">Macacos: Fascinantes Primatas</h1>
+        <div class="w-24 h-1 bg-amber-500 mx-auto rounded-full"></div>
+    </header>
     
-    <p>Os macacos são primatas incrivelmente inteligentes e sociais que habitam diversas regiões do mundo. Existem mais de 260 espécies diferentes, distribuídas entre macacos do Novo Mundo (nas Américas) e do Velho Mundo (África e Ásia).</p>
+    <p class="text-lg mb-6">Os macacos são primatas incrivelmente inteligentes e sociais que habitam diversas regiões do mundo. Existem mais de 260 espécies diferentes, distribuídas entre macacos do Novo Mundo (nas Américas) e do Velho Mundo (África e Ásia).</p>
     
-    <img src="https://s2-g1.glbimg.com/MVIpOVDJgHL5JQkPIkh6NbAtkzw=/0x0:620x794/984x0/smart/filters:strip_icc()/s.glbimg.com/jo/g1/f/original/2012/03/06/caters_monkey_snapper_03.jpg" alt="Macaco na natureza">
+    <div class="my-8"></div>
+        <img src="https://s2-g1.glbimg.com/MVIpOVDJgHL5JQkPIkh6NbAtkzw=/0x0:620x794/984x0/smart/filters:strip_icc()/s.glbimg.com/jo/g1/f/original/2012/03/06/caters_monkey_snapper_03.jpg" 
+             alt="Macaco na natureza" 
+             class="rounded-lg shadow-md mx-auto max-w-md">
+    </div>
     
-    <h2>Curiosidades</h2>
-    <ul>
-        <li>Alguns macacos são capazes de usar ferramentas</li>
-        <li>Vivem em grupos sociais complexos</li>
-        <li>Possuem grande capacidade de aprendizado</li>
-        <li>Podem comunicar-se através de vocalizações e gestos</li>
-    </ul>
+    <div class="bg-white p-6 rounded-lg shadow-lg mb-8">
+        <h2 class="text-2xl font-semibold text-amber-700 mb-4">Curiosidades</h2>
+        <ul class="list-disc pl-6 space-y-2">
+            <li>Alguns macacos são capazes de usar ferramentas</li>
+            <li>Vivem em grupos sociais complexos</li>
+            <li>Possuem grande capacidade de aprendizado</li>
+            <li>Podem comunicar-se através de vocalizações e gestos</li>
+        </ul>
+    </div>
     
-    <h2>Habitat</h2>
-    <p>Macacos podem ser encontrados em diversos ambientes, como florestas tropicais, savanas, e até mesmo em regiões mais temperadas. Cada espécie se adaptou de forma única ao seu ambiente específico.</p>
+    <div class="bg-white p-6 rounded-lg shadow-lg">
+        <h2 class="text-2xl font-semibold text-amber-700 mb-4">Habitat</h2>
+        <p>Macacos podem ser encontrados em diversos ambientes, como florestas tropicais, savanas, e até mesmo em regiões mais temperadas. Cada espécie se adaptou de forma única ao seu ambiente específico.</p>
+    </div>
 </body>
 </html>
